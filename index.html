@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown menu</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-pink-200">
+    <div class="relative w-full ">
+      <button id="dropdown-button" class="bg-gray-200 px-4 py-2 rounded p-4">Menu</button>
+      <div
+        id="dropdown-menu"
+        class="absolute hidden bg-white rounded shadow-lg h-screen w-1/5"
+      >
+        <a href="" class="block px-4 py-2 hover:bg-gray-200 text-center font-bold  w-full text-pink-400">Home</a>
+        <a href="" class="block px-4 py-2 hover:bg-gray-200 text-center font-bold  w-full text-pink-400">Transactions</a>
+        <a href="" class="block px-4 py-2 hover:bg-gray-200 text-center font-bold  w-full text-pink-400">About</a>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
